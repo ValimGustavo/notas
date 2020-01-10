@@ -1,0 +1,2 @@
+# notas
+plugin for Chorme 
