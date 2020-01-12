@@ -1,0 +1,14 @@
+{
+    //require
+    "manifest_version":2,
+    "name":"notas",
+    "version":"1.0",
+    "browser_action": {
+        
+        "default_popup":"./index.html"
+    },
+
+    //not require
+    "description":"plugin salva textos no localStorage"
+    
+}
