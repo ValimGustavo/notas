@@ -1,21 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Notas</title>
+    <title>Notebook</title>
     <script src="./script.js"></script>
 </head>
 <body>
-
-<div id="painel-new-note">
-    <input type="text" id="titulo" placeholder="titulo">
-    <br>
-    <textarea id="descricao" rows="10"></textarea>
-    <br>
-    <button onclick="save()">Salvar</button>
-    <br>        
+<div id="panel-attention"></div>
+<div id="panel-new-note">    
+    <p><input type="text" id="titulo" placeholder="titulo"></p>
+    <p><textarea id="descricao" rows="10"></textarea></p>    
+    <button onclick="save()">Salvar</button>            
 </div>
 <button onclick="listAll()">Listar</button>
-<div id = "painel-list-note"></div>
+<div id = "panel-list-note"></div>
 </body>
 </html>
